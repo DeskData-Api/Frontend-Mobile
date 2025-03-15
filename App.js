@@ -3,9 +3,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
-import HomeScreen from './src/BottomTab/Home';
-import RegisterScreen from './src/BottomTab/Registro';
-import ProfileScreen from "./src/BottomTab/Conta";
+import HomeScreen from './src/pages/BottomTab/Home';
+import RegisterScreen from './src/pages/BottomTab/Registro';
+import ProfileScreen from "./src/pages/BottomTab/Conta";
 import DetailScreen from './src/Stack/Detail';
 
 const Tab = createMaterialBottomTabNavigator();
